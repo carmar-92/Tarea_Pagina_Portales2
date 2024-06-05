@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turista HN</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header
+            class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+            <div class="col-md-3 mb-2 mb-md-0">
+                <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+                    <svg class="bi" width="40" height="32" role="img" aria-label="Bootstrap">
+                        <use xlink:href="#bootstrap" />
+                    </svg>
+                </a>
+            </div>
+
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="#INICIO" class="nav-link px-2 link-secondary">INICIO</a></li>
+                <li><a href="#lugares" class="nav-link px-2">Lugares</a></li>
+                <li><a href="#" class="nav-link px-2">Nosotros</a></li>
+                <li><a href="#escribenos" class="nav-link px-2">Escribenos</a></li>
+            </ul>
+
+            <div id="carouselExampleIndicators" class="carousel slide container" data-bs-ride="carousel">
+                <div id="INICIO">
+                    <h1>Bienvenidos a Lugares Turísticos de Honduras</h1><br>
+                    <h2>Explora la Belleza Natural y Cultural de Honduras</h2>
+                    <p>
+                        Honduras es un país lleno de maravillas naturales, rica historia y cultura vibrante. Desde sus
+                        impresionantes
+                        playas en el Caribe hasta sus antiguos sitios arqueológicos, este hermoso país centroamericano
+                        ofrece una
+                        amplia variedad de destinos turísticos para todos los gustos.
+                    </p>
+                </div>
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Media/turista1.jpg" class="d-block w-100" alt="Destino turisco 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Media/turista2.jpg" class="d-block w-100" alt="Destino turisco 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Media/turista3.jpg" class="d-block w-100" alt="Destino turisco 3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </header>
+    </div>
+    <main>
+        <div class="hero-section text-center text-white d-flex justify-content-center align-items-center">
+            <div class="overlay"></div>
+            <div class="container">
+                <h1>Descubre los mejores lugares turísticos de Honduras</h1>
+                <p>Explora los destinos más impresionantes del país</p>
+                <a href="#lugares" class="btn btn-primary">Ver más</a>
+            </div>
+        </div>
+
+        <div class="container my-5" id="lugares">
+            <h2>Principales lugares turiscos de Honduras</h2>
+            <div class="card-group">
+                <div class="card">
+                    <img src="Media/roatan.webp" class="card-img-top fixed-size-img" alt="Roatán">
+                    <div class="card-body">
+                        <h5 class="card-title">Roatán</h5>
+                        <p class="card-text">La isla de Roatán es un paraíso tropical en el Mar Caribe, conocido por sus
+                            playas de arena blanca, aguas cristalinas y arrecifes de coral. Es un destino popular para
+                            el buceo y el snorkel, ofreciendo una rica biodiversidad marina.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Disfruta en el mar</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Media/Copán Ruinas.jpg" class="card-img-top fixed-size-img" alt="Copán Ruinas">
+                    <div class="card-body">
+                        <h5 class="card-title">Copán Ruinas</h5>
+                        <p class="card-text">Copán es un sitio arqueológico de la civilización Maya, famoso por sus
+                            estelas y altares intricadamente tallados. Este sitio, declarado Patrimonio de la Humanidad
+                            por la UNESCO, ofrece una visión fascinante de la antigua cultura Maya.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Conoce sobre arqueología Maya</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Media/la tigra.jpg" class="card-img-top fixed-size-img" alt="Parque Nacional La Tigra">
+                    <div class="card-body">
+                        <h5 class="card-title">Parque Nacional La Tigra</h5>
+                        <p class="card-text">Ubicado cerca de Tegucigalpa, La Tigra es un parque nacional con
+                            exuberantes bosques nubosos y una rica biodiversidad. Es ideal para el senderismo, la
+                            observación de aves y disfrutar de la naturaleza en su estado más puro.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Explora la naturaleza</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-group mt-4">
+                <div class="card">
+                    <img src="Media/tela.webp" class="card-img-top fixed-size-img" alt="Tela">
+                    <div class="card-body">
+                        <h5 class="card-title">Tela</h5>
+                        <p class="card-text">Tela es una encantadora ciudad costera situada en la costa norte de
+                            Honduras, bañada por las aguas del mar
+                            Caribe. Conocida por sus hermosas playas de arena blanca y su rica biodiversidad, Tela es un
+                            destino perfecto para quienes
+                            buscan relajación, aventura y contacto con la naturaleza.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Aventuras acuáticas</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Media/lago de yojoa.jpg" class="card-img-top fixed-size-img" alt="Lago de Yojoa">
+                    <div class="card-body">
+                        <h5 class="card-title">Lago de Yojoa</h5>
+                        <p class="card-text">El lago de Yojoa es el lago más grande de Honduras, rodeado de montañas y
+                            selvas. Es un destino perfecto para la pesca, el kayak y la observación de aves, además de
+                            tener atractivos naturales como cascadas y cavernas cercanas.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Disfruta de la pesca</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Media/cusuco.jpg" class="card-img-top fixed-size-img" alt="Parque Nacional Cusuco">
+                    <div class="card-body">
+                        <h5 class="card-title">Parque Nacional Cusuco</h5>
+                        <p class="card-text">Situado en la región montañosa del noroeste de Honduras, Cusuco es un
+                            parque nacional conocido por su biodiversidad y paisajes impresionantes. Es un lugar
+                            excelente para el ecoturismo, ofreciendo senderos para caminatas y la oportunidad de ver
+                            especies endémicas.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Ecoturismo</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" id="escribenos">
+            <h2>Escribenos</h2>
+
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                </div>
+            </div><br>
+            <div class="row g-3">
+                <div class="col-sm-7">
+                    <input type="text" class="form-control" placeholder="País" aria-label="País">
+                </div>
+                <div class="col-sm">
+                    <input type="text" class="form-control" placeholder="Ciudad" aria-label="Ciudad">
+                </div>
+                <div class="col-sm">
+                    <input type="text" class="form-control" placeholder="Código de area" aria-label="cod">
+                </div>
+            </div><br>
+            <div class="row">
+                <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Email</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control form-control-lg" id="colFormLabelLg"
+                        placeholder="Correo Electrónico">
+                </div><br>
+
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div><br>
+
+            <footer class="bg-light text-center py-3">
+                <p>&copy; 2024 Turista HN. Todos los derechos reservados.</p>
+                <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="#INICIO" class="nav-link px-2 link-secondary">INICIO</a></li>
+                    <li><a href="#lugares" class="nav-link px-2">Lugares</a></li>
+                    <li><a href="#" class="nav-link px-2">Nosotros</a></li>
+                    <li><a href="#escribenos" class="nav-link px-2">Escribenos</a></li>
+                </ul>
+            </footer>
+
+    </main>
+
+</body>
+
+</html>
